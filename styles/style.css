@@ -15,7 +15,7 @@
     background-color: #FFFFFF;
     padding:34px;
     margin-top:20px;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 .players-bar{
    display: grid;
@@ -60,4 +60,50 @@ hr{
    text-decoration: none;
    font-weight: bold;
    padding-left: 4px;
+}
+.course-info img{
+   width:230px;
+   height: 108px;
+}
+.course-details{
+   display:grid;
+   grid-template-columns: repeat(3 , 1fr);
+   column-gap: 15px;
+
+}
+.course-info{
+   box-shadow:7px 6px 13px #dfdbdb;
+   margin: auto;
+   padding:30px 10px;
+   border-radius: 25px;
+}
+.course-info h3{
+   margin:10px 0px;
+}
+.course-info p{
+   color:#FF6F81;
+   margin: 5px 0px;
+}
+.fa-star{
+   font-size: 16px;
+}
+.fa-star.filled{
+   color:#FFC014;
+}
+.fa-star.empty{
+   color:#EAEAEA;
+}
+.time-zone{
+   background-color: #ff6f802e;
+   color:#FF6F81;
+   padding:5px 6px;
+   border-radius: 30px;
+}
+.course-rating{
+   display: flex;
+   align-items: center;
+   column-gap: 6px;
+}
+.course-rating p{
+   color:#191616;
 }
