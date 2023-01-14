@@ -3,30 +3,61 @@
  body{
     font-family: 'Poppins', sans-serif;
     background-color:#F3F1FF;
+    box-sizing: border-box;
  }
  main{
     display: flex;
-    justify-content:center ;
+    flex-direction: column;
+    align-items: center; 
  }
 .container{
     width:870px;
     background-color: #FFFFFF;
     padding:34px;
+    margin-top:20px;
+    border-radius: 8px;
 }
 .players-bar{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   row-gap: 20px;
+   row-gap: 24px;
 }
 .player{
    display: flex;
    align-items: center;
-   gap: 10px;
+   gap: 15px;
 }
 .player img{
    width:56px;
    height: 56px;
 }
+hr{
+   
+   border: 1px solid rgb(81, 68, 68);
+}
 .top-title{
    color:#562EFF;
+}
+.blog-bar{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   row-gap: 11px;
+}
+.blog-details img{
+   width:180px;
+   height: 120px;
+}
+.blog-details{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+.author-details{
+   padding:5px 0px;
+}
+.author a{
+   color:#562EFF;
+   text-decoration: none;
+   font-weight: bold;
+   padding-left: 4px;
 }
